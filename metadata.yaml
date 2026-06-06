@@ -1,0 +1,11 @@
+name: tianyi_food_recommend
+display_name: 天依美食雷达
+desc: 配合Tasker定位，按需拉取位置后用高德地图推荐附近美食~
+short_desc: 洛天依帮你找好吃的！
+version: v1.0.0
+author: 依一壹1
+repo: https://github.com/anomalyco/opencode
+tags:
+  - 美食
+  - 地图
+  - 洛天依

@@ -1,0 +1,32 @@
+{
+  "amap_key": {
+    "description": "高德地图Web服务API密钥",
+    "type": "string",
+    "hint": "去高德开放平台 https://console.amap.com 申请Web服务key",
+    "obvious_hint": true
+  },
+  "location_server": {
+    "description": "定位服务器地址",
+    "type": "string",
+    "default": "http://8.xxx.xx.250,换成自己的",
+    "hint": "位置接收服务的地址。容器内可用 http://8.xxx.xx.250，外部访问请替换为宿主机IP"
+  },
+  "location_secret": {
+    "description": "定位服务共享密钥",
+    "type": "string",
+    "default": "tianyi_food_radar_2024",
+    "hint": "跟server.py里的SECRET保持一致"
+  },
+  "search_radius": {
+    "description": "搜索半径(米)",
+    "type": "int",
+    "default": 1500,
+    "hint": "搜附近多大范围的餐厅"
+  },
+  "result_count": {
+    "description": "返回结果数",
+    "type": "int",
+    "default": 5,
+    "hint": "最多推荐几家店"
+  }
+}
